@@ -3,6 +3,7 @@ package uk.ac.westminster.products_api;
 public class Product {
     private Long id;
     private String name;
+    // I would Notice that one of the fields is missing from json response
     private double price;
 
     public Product() {}
